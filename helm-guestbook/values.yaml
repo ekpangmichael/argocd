@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: docker pull weezyval/mobimeo
-  tag: latest
+  repository: weezyval/mobimeo
+  tag: v14
   pullPolicy: IfNotPresent
 
 service:
